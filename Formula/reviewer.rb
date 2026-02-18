@@ -24,12 +24,21 @@ class Reviewer < Formula
         brew install gh
         gh auth login
 
-      For Claude Code integration, ensure Claude CLI is installed:
-        npm install -g @anthropic-ai/claude-code
+      Optional: Install delta for improved diff visualization:
+        brew install git-delta
 
-      Optional: Install the code-review skill for enhanced reviews:
+      Optional: For AI-powered reviews, install one of:
+        npm install -g @anthropic-ai/claude-code
+        npm install -g @openai/codex
+
+      Optional: Install the code-review skill for enhanced AI reviews:
         mkdir -p ~/.claude/skills/code-review
         # Copy SKILL.md from the repository to ~/.claude/skills/code-review/
+        # Or for Codex: ~/.codex/skills/code-review/
+
+      Optional: Create a custom review guide:
+        mkdir -p ~/.config/reviewer
+        # Add your review preferences to ~/.config/reviewer/review_guide.md
     EOS
   end
 
