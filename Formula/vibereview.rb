@@ -5,12 +5,12 @@ class Vibereview < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/daulet/vibereview/releases/download/v0.2.0/vibereview-x86_64-apple-darwin.tar.gz"
-      sha256 "758c7c5079d1c72c07e717bbcc72161f86af046f50fa040e47bfea8e43419d52"
+      url "https://github.com/daulet/vibereview/releases/download/v0.3.0/vibereview-x86_64-apple-darwin.tar.gz"
+      sha256 "666cc9fbf2ee914a59076bb5b4243b08c0ac904400b6e9809538945ff99186b2"
     end
     on_arm do
-      url "https://github.com/daulet/vibereview/releases/download/v0.2.0/vibereview-aarch64-apple-darwin.tar.gz"
-      sha256 "1c43245ccfab51d85eab41214a57553246f78a6c1136fbb32c3b99f81fc5e49f"
+      url "https://github.com/daulet/vibereview/releases/download/v0.3.0/vibereview-aarch64-apple-darwin.tar.gz"
+      sha256 "eca8028bf6491b67dbfbdb7adbca6701788b86aa22504e68aee4fd090650cfdc"
     end
   end
 
