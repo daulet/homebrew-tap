@@ -5,12 +5,12 @@ class Reviewer < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/daulet/reviewer/releases/download/v0.4.1/reviewer-x86_64-apple-darwin.tar.gz"
-      sha256 "dd3f23075b7cbcea8846fff1c08969d38c18ca88ae2f56f7ed8e807566707452"
+      url "https://github.com/daulet/reviewer/releases/download/v0.5.0/reviewer-x86_64-apple-darwin.tar.gz"
+      sha256 "e69fb9b71ad838003d4a8e8730283c766488c71e5bc72314eb55d2d1e76c0938"
     end
     on_arm do
-      url "https://github.com/daulet/reviewer/releases/download/v0.4.1/reviewer-aarch64-apple-darwin.tar.gz"
-      sha256 "fdd91a242ef191e2700a2d66aabed188763f69f42d6d26fe24e7e45f0abb83a8"
+      url "https://github.com/daulet/reviewer/releases/download/v0.5.0/reviewer-aarch64-apple-darwin.tar.gz"
+      sha256 "2e2c3db1c3db6a9c0fd6f597ce69050a727da0669d89235bb2fbea3fd1f9de5f"
     end
   end
 
