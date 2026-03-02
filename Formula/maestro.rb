@@ -5,12 +5,12 @@ class Maestro < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/daulet/maestro/releases/download/v0.1.1/maestro-x86_64-apple-darwin.tar.gz"
-      sha256 "ad74147e7fe4cab6729517667c244c5eabda1b402ed04255827c80415d39f8be"
+      url "https://github.com/daulet/maestro/releases/download/v0.1.3/maestro-x86_64-apple-darwin.tar.gz"
+      sha256 "8f9a399ac580c004553ea34410ce6a57563b272a83907ae8767d3b53fb65f23a"
     end
     on_arm do
-      url "https://github.com/daulet/maestro/releases/download/v0.1.1/maestro-aarch64-apple-darwin.tar.gz"
-      sha256 "49a4a717bbda420ddd27c43d75d4b6a0e92de5058f1cfce9f61a2bd1831d540e"
+      url "https://github.com/daulet/maestro/releases/download/v0.1.3/maestro-aarch64-apple-darwin.tar.gz"
+      sha256 "3e7e1cb3c8848db27a4bfba2e9133ee9b621f2f1cfc59b310bd908b133d6cfc0"
     end
   end
 
