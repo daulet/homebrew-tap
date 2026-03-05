@@ -2,16 +2,16 @@ class Maestro < Formula
   desc "Stateless tmux-first session manager for interactive CLI agents"
   homepage "https://github.com/daulet/maestro"
   license "MIT"
-  version "0.1.6"
+  version "0.1.7"
 
   on_macos do
     on_intel do
-      url "https://github.com/daulet/maestro/releases/download/v0.1.6/maestro-x86_64-apple-darwin.tar.gz"
-      sha256 "33a0c2f924c895b68206ea2a5607f7c456486e4c758c51b0f7e8621f1a3aa82e"
+      url "https://github.com/daulet/maestro/releases/download/v0.1.7/maestro-x86_64-apple-darwin.tar.gz"
+      sha256 "5a3b90b5c96d03ae4cea49e641750d86945cc3e7069cfe9593766416351e53e6"
     end
     on_arm do
-      url "https://github.com/daulet/maestro/releases/download/v0.1.6/maestro-aarch64-apple-darwin.tar.gz"
-      sha256 "b962bc0cb2356f172438b661689263128645b8177f5dc3eac11b5154b049a197"
+      url "https://github.com/daulet/maestro/releases/download/v0.1.7/maestro-aarch64-apple-darwin.tar.gz"
+      sha256 "7284164cc27d03a29423c500b00f91e7c749600733d0a9b2fd1a41c0b8444e71"
     end
   end
 
