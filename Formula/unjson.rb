@@ -1,8 +1,8 @@
 class Unjson < Formula
   desc "Format newline-delimited JSON logs into readable key=value output"
   homepage "https://github.com/daulet/unjson"
-  license "MIT"
   version "0.1.1"
+  license "MIT"
 
   on_macos do
     on_intel do
