@@ -2,16 +2,16 @@ class Reviewer < Formula
   desc "TUI for reviewing GitHub PRs with Claude Code/Codex integration"
   homepage "https://github.com/daulet/reviewer"
   license "MIT"
-  version "0.6.1"
+  version "0.6.2"
 
   on_macos do
     on_intel do
-      url "https://github.com/daulet/reviewer/releases/download/v0.6.1/reviewer-x86_64-apple-darwin.tar.gz"
-      sha256 "c660fb1ff31907dcd0ffec4f21eb9b74e427a9c9caeec8ad48c6ca47fd8129bb"
+      url "https://github.com/daulet/reviewer/releases/download/v0.6.2/reviewer-x86_64-apple-darwin.tar.gz"
+      sha256 "72062bc6f454395bfcdcddb4304ddae27a8bb79666251e779b7c7f99fd343260"
     end
     on_arm do
-      url "https://github.com/daulet/reviewer/releases/download/v0.6.1/reviewer-aarch64-apple-darwin.tar.gz"
-      sha256 "93dd2a83862f5d7d030ec0bc0c8d2c85de1a6c7a158700681b4475aa9fcb7954"
+      url "https://github.com/daulet/reviewer/releases/download/v0.6.2/reviewer-aarch64-apple-darwin.tar.gz"
+      sha256 "7a279d6df24945ec37e9951859e24916bdcaf1469fb7a805b844f27e0e19424f"
     end
   end
 
