@@ -2,16 +2,16 @@ class K11s < Formula
   desc "Speed-first CLI/TUI for Kubernetes navigation and operations"
   homepage "https://github.com/daulet/k11s"
   license "MIT"
-  version "0.2.0"
+  version "0.2.1"
 
   on_macos do
     on_intel do
-      url "https://github.com/daulet/k11s/releases/download/v0.2.0/k11s-x86_64-apple-darwin.tar.gz"
-      sha256 "f8af624033974448aa214f830ac5c500d2f5f10b5639edd06959142665e7b2bc"
+      url "https://github.com/daulet/k11s/releases/download/v0.2.1/k11s-x86_64-apple-darwin.tar.gz"
+      sha256 "b8fd8ef7a72d031eff884941b51610af01e7b3d236075a9fb172e019745c3eb8"
     end
     on_arm do
-      url "https://github.com/daulet/k11s/releases/download/v0.2.0/k11s-aarch64-apple-darwin.tar.gz"
-      sha256 "be9ef2df248ceeef91d06a22bd4912e005191402e7a16d600812e15cf17ca311"
+      url "https://github.com/daulet/k11s/releases/download/v0.2.1/k11s-aarch64-apple-darwin.tar.gz"
+      sha256 "d0852538d28915b1f168412f43cd419da27942d9d2adbadebeca81d0caad406d"
     end
   end
 
