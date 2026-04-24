@@ -1,7 +1,6 @@
 class Codex < Formula
   desc "AI coding assistant fork with persistent tree and side conversations"
   homepage "https://github.com/daulet/codex"
-  version "0.124.0"
   license "Apache-2.0"
 
   depends_on "ripgrep"
