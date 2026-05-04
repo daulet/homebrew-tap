@@ -7,12 +7,12 @@ class Codex < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/daulet/codex/releases/download/v0.128.1/codex-x86_64-apple-darwin.tar.gz"
-      sha256 "ab4e376bd2d8f35f49618c8f26eb9d8a8f344b8c9614398e88d026db4d329bb1"
+      url "https://github.com/daulet/codex/releases/download/v0.128.0/codex-x86_64-apple-darwin.tar.gz"
+      sha256 "81888a0eeab986b17ae92be8b5f07db132bc601675a299327dbbd822b3e4c9f8"
     end
     on_arm do
-      url "https://github.com/daulet/codex/releases/download/v0.128.1/codex-aarch64-apple-darwin.tar.gz"
-      sha256 "29ddd14c5ee7574bb8241f296751e7df3e351a879461a862d60cbbe5d26ce004"
+      url "https://github.com/daulet/codex/releases/download/v0.128.0/codex-aarch64-apple-darwin.tar.gz"
+      sha256 "b38c966895403af43395e9fca7218ed502ecd396badb4111f5f931cbd6c77265"
     end
   end
 
