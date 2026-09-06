@@ -1,25 +1,25 @@
 class Rot < Formula
   desc "Fast, Rust-aware source metrics"
   homepage "https://github.com/daulet/rot"
-  version "0.1.3"
+  version "0.1.4"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/daulet/rot/releases/download/v0.1.3/rot-metrics-aarch64-apple-darwin.tar.gz"
-      sha256 "ae6b2aacb1ed920fa26a7a361ffcf1e7ed2682131ae70f58b160c1995ae08d0e"
+      url "https://github.com/daulet/rot/releases/download/v0.1.4/rot-metrics-aarch64-apple-darwin.tar.gz"
+      sha256 "6c95284c9672886e0e6b48c30f7b17852f622e8692b6dd60d409bbdc50b967b4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/daulet/rot/releases/download/v0.1.3/rot-metrics-x86_64-apple-darwin.tar.gz"
-      sha256 "2323948dc3af93fe3f680a2e805d88d46a67bdbb4608f435ab0e384c796a2401"
+      url "https://github.com/daulet/rot/releases/download/v0.1.4/rot-metrics-x86_64-apple-darwin.tar.gz"
+      sha256 "2127a3f0af6147a791b058e83dc9ed45096a87db09ed90d3c9aa484b1e510e59"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/daulet/rot/releases/download/v0.1.3/rot-metrics-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "29fb6ca269b323d00bdbe230ac339e7d2588969f82d2c9edfdddffc125b104ad"
+      url "https://github.com/daulet/rot/releases/download/v0.1.4/rot-metrics-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "938998e6f0d51d1aca64e43a01c63fa4e9f435b4ba1e4947e7da952cc212fae1"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/daulet/rot/releases/download/v0.1.3/rot-metrics-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "a431e4b4ed2c747049ba4ab6397553d3f584ded45504bdf28d10997642568906"
+      url "https://github.com/daulet/rot/releases/download/v0.1.4/rot-metrics-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "9bf4aace3b361d5b91a13cd812c671e2e5b115c9aeb36d526ab0153298f0c5b1"
     end
   end
   license "Apache-2.0"
